@@ -3,6 +3,7 @@ package com.fenxin.java.dao;
 import com.fenxin.java.entity.User;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -14,6 +15,7 @@ public class UserDAOImpl implements UserDAO {
     @Autowired
     private SessionFactory sessionFactory;
 
+    @Override
     public int save(User u) {
         return (Integer) sessionFactory.getCurrentSession().save(u);
     }
@@ -23,6 +25,7 @@ public class UserDAOImpl implements UserDAO {
         return criteria.list();
     }*/
 
+    @Override
     public List<User> findAll() {
         //Criteria criteria = sessionFactory.getCurrentSession().createCriteria(User.class);
         System.out.println("1213");
@@ -42,5 +45,15 @@ public class UserDAOImpl implements UserDAO {
         return list;
     }
 
+    @Override
+    public User getUserByName(String username) {
+        System.out.println("查询开始");
+        Session session = sessionFactory.getCurrentSession();
+        String hql = "from User where id = :id";
+        Query query = session.createQuery(hql);
+        query.setParameter("id", Integer.parseInt(username));
+        System.out.println("查询结束");
+        return query.list().size() <= 0 ? null : (User)query.list().get(0);
+    }
 }
 

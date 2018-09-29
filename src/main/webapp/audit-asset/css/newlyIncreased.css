@@ -1,0 +1,231 @@
+/*reset*/
+*{ margin: 0; padding: 0;}
+html,body{ width: 100%; height: 100%;font-family: "微软雅黑";}
+a{text-decoration: none;}
+i{ font-style: normal;}
+li{ list-style: none;}
+
+/*居中*/
+#nav{ width: 1366px; margin: auto;}
+/*位置*/
+.wrap{ width: 85.7%; margin: 20px auto;}
+/*换行线*/
+#header{ width: 100%; height: 40px; border-bottom: 1px solid #eee;font-size:12px;} 
+
+#scend{;margin-top: 30px;}
+.f2{font-size: 44px;margin: 4px;color: #888888;}
+
+/*中间居中*/
+#nav_2{ width: 1009px; height: 768px; border: 0px solid #ccc; margin: auto;position: relative;top: -30px;}
+
+/*分割线靠文字后*/
+.f3{border-bottom: 1px solid #eee;position: relative;width: 875px;left:130px;top:-10px;}
+
+/*苗木名称*/
+.name{position: relative;left: 220px;top: 30px;}
+input{width: 256px;height: 24px;}
+.l1{margin-right: 15px;}
+.name i.icon-sousuo{ position: absolute; top: 10px; left: 320px; width: 18px; height: 30px; font-size: 14px; color: #c5c5c5;}
+.name .search_selector{ display: none; position: absolute; left: 77px; top: 35px; width: 262px; background: #FFFFFF; border: 1px solid #D8D8D8; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10); border-radius: 2px; z-index: 100;}
+.name .search_selector li{ width: 100%; height: 30px; line-height: 30px; text-indent: 10px;}
+.name .search_selector li:hover{ background: #E7EFF5; cursor: pointer;}
+
+
+/*别名*/
+.alias{position: relative;left: 650px;top: 0px;}
+.l2{margin-right: 41px;}
+
+/*苗木类型*/
+.type{position: relative;left: 220px;top: 15px;}
+select{width: 260px;height: 30px;}
+.l3{margin-right: 10px;}
+
+/*地区*/
+.region{position: relative;left: 650px;top: -15px;}
+.l4{margin-right: 6px;}
+
+/*树型特征*/
+.tree{position: relative;left: 220px;top: 0px;}
+.l5{margin-right: 10px;}
+
+/*阳光*/
+.sun{position: relative;left: 650px;top: 0px;}
+.l6{margin-right: 10px;}
+
+/*温度*/
+.tem{position: relative;left: 220px;top: -30px;}
+.l7{margin-right: 6px;}
+
+/*湿度*/
+.hum{position: relative;left: 650px;top: -15px;}
+.l8{margin-right: 10px;}
+
+/*土壤*/
+.soil{position: relative;left: 220px;top: -45px;}
+.l9{margin-right: 6px;}
+
+/*观赏*/
+.fea{position: relative;left: 650px;top: -30px;}
+.l10{margin-right: 10px;}
+
+/*用途*/
+.pur{position: relative;left: 220px;top: -60px;}
+.l11{margin-right: 6px;}
+
+/*用途特征*/
+.pur_feature{position: relative;left: 224px; top: -45px;}
+.l12{margin-right: 6px;}
+
+/*描述*/
+.des{position: relative;left: 220px;top: -30px;}
+.l13{position: relative;left: 78px;top: -25px;width: 685px;height: 100px;}
+
+
+#scend_1{;margin-top: 30px;}
+.f4{font-size: 44px;margin: 4px;color: #888888;}
+
+/*第二个中间居中*/
+#nav_3{ width: 1009px; height: 768px; border: 0px solid #ccc; margin-top: -10px;position: relative;top: -90px;}
+
+/*第二个分割线靠文字后*/
+.f5{border-bottom: 1px solid #eee;position: relative;width: 875px;left:130px;top:-10px;}
+
+/*表格*/
+ #table table{ width: 94.87%; margin: 0 auto; border: 1px solid #E6EAEE;margin-top: 15px;}
+#table table th,#table table td{ height: 40px; font-size: 14px; border: 1px solid #E6EAEE; text-align: center; vertical-align: middle;}
+#table table th{ color: #7F8FA4;}
+#table table td{ color: #555;}
+#table table tr:nth-child(odd){ background-color: #F5F8FA }
+#table table tr:nth-child(even){ background-color: #fff }
+#table table tr td:nth-child(1){ color: #222;}
+#table table tr:hover td{ border-top: 2px solid #1A89E8; border-bottom: 2px solid #1A89E8; z-index: 1033444}
+#table table tr:hover td:first-child{ border-left: 2px solid #1A89E8; color: #1A89E8;}
+#table table tr:hover td:last-child{ border-right: 2px solid #1A89E8;} 
+
+
+
+
+
+
+
+*{ margin: 0; padding: 0;}
+html,body{ width: 100%; height: 100%; font-family: "微软雅黑";}
+a{text-decoration: none;}
+
+
+
+#scend{;margin-top: 30px;}
+.f2{font-size: 44px;margin: 4px;color: #C5C5C5;}
+
+/*中间居中*/
+#nav_2{ width: 1009px; height: 768px; border: 0px solid #ccc; margin: auto;position: relative;top: -30px;}
+
+/*分割线靠文字后*/
+.f3{border-bottom: 1px solid #eee;position: relative;width: 875px;left:150px;top:-10px;}
+#add select{font-size:14px;}
+/*苗木名称*/
+.name{position: relative;left: 220px;top: 30px;font-size:14px;}
+input{width: 256px;height: 24px;}
+.l1{margin-right: 15px;}
+
+/*别名*/
+.alias{position: relative;left: 650px;top: -4px;font-size:14px;}
+.l2{margin-right: 45px;}
+
+/*苗木类型*/
+.type{position: relative;left: 220px;top: 15px;font-size:14px;}
+select{width: 260px;height: 30px;}
+.l3{margin-right: 10px;}
+
+/*地区*/
+.region{position: relative;left: 650px;top: -20px;font-size:14px;}
+.l4{margin-right: 6px;}
+
+/*树型特征*/
+.tree{position: relative;left: 220px;top: 0px;}
+.l5{margin-right: 10px;}
+
+/*阳光*/
+.sun{position: relative;left: 650px;top: -34px;font-size:14px;}
+.l6{margin-right: 6px;}
+
+/*温度*/
+.tem{position: relative;left: 220px;top: -14px;font-size:14px;}
+.l7{margin-right: 10px;}
+
+/*湿度*/
+.hum{position: relative;left: 650px;top: -48px;font-size:14px;}
+.l8{margin-right: 6px;}
+
+/*土壤*/
+.soil{position: relative;left: 650px;top: -30px;font-size:14px;z-index:20000;}
+.l9{margin-right: 6px;}
+
+/*观赏*/
+.fea{position: relative;left: 214px;top: -65px;font-size:14px;}
+.l10{margin-right: 10px;}
+
+/*用途*/
+.pur{position: relative;left: 213px;top: -60px;font-size:14px;}
+.l11{margin-right: 6px;}
+
+/*描述*/
+.des{position: relative;left: 220px;top: -20px;font-size:14px;}
+.l12{position: relative;left: 77px;top: -25px;width: 685px;height: 100px;}
+
+
+#scend_1{;margin-top: 30px;}
+.f4{font-size: 44px;margin: 4px;color: #C5C5C5;}
+
+/*第二个中间居中*/
+#nav_3{ width: 1009px; height: 300px; border: 0px solid #ccc; margin-top: -10px;position: relative;top: -60px;}
+
+/*第二个分割线靠文字后*/
+.f5{border-bottom: 1px solid #eee;position: relative;width: 875px;left:150px;top:-10px;}
+
+/*表格*/
+#table table{ width: 94.87%; margin: 0 auto; border: 1px solid #E6EAEE;margin-top: 15px;}
+#table table th,#table table td{ height: 20px; font-size: 14px; border: 1px solid #E6EAEE; text-align: center; vertical-align: middle;}
+#table table th{ color: #7F8FA4;}
+#table table td{ color: #555;}
+#table table tr:nth-child(odd){ background-color: #F5F8FA }
+#table table tr:nth-child(even){ background-color: #fff }
+#table table tr td:nth-child(1){ color: #222;height:40px;width:115px;}
+#table table tr td:nth-child(2){ color: #222;height:40px;width:115px;}
+#table table tr td:nth-child(3){ color: #222;height:40px;width:125px;}
+#table table tr td:nth-child(4){ color: #222;height:40px;width:115px;}
+#table table tr td:nth-child(5){ color: #222;height:40px;width:115px;}
+#table table tr td:nth-child(6){ color: #222;height:40px;width:115px;}
+#table table tr td:nth-child(7){ color: #222;height:40px;width:135px;}
+
+
+/*添加价格*/
+.add_audit{position: relative;right: -50px;color: beige;}
+
+.fl{ float: left;}
+.fr{ float: right;}
+.clear{ content: ''; display: block; clear: both;}
+#add_search{width: 100%; height: 66px;}
+#add_search .add_audit{ width: 120px; height: 30px; margin: 20px 0 0 30px; font-size: 14px; color: #fff; background-color: #0BBA6B; border-radius: 2px; line-height: 30px; text-align: center;}
+
+#add_search .search{ margin: 20px 30px 0 0;}
+#add_search .search input{ width: 240px; height: 30px; text-indent: 10px;}
+
+.clear_1{position: relative;right: -310px;}
+#can{position: relative;left: 200px;top: -50px;background-color: #FFFFFF;border: 1px solid #D8D8D8;border-radius: 2px;}
+.add_audit1{ width: 120px; height: 30px; margin: 20px 0 0 30px; font-size: 14px; color: #555555; background-color: #FFFFFF; border-radius: 2px; line-height: 30px; text-align: center;}
+#tj{position: relative;left: 0px;top: -10px;}
+
+
+
+
+
+
+.multi_selec_frame{ display: none; position: absolute; top: 95px; right: 1px; width: 359px; background: #FFFFFF; border: 1px solid #D8D8D8; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10); border-radius: 2px; z-index: 100;}
+.multi_selec_frame li{ width: 100%; height: 32px; line-height: 32px; text-indent: 10px;}
+.multi_selec_frame li:hover{ cursor: pointer; background-color: #E7EFF5;}
+.multi_selec_frame li span.iconfont{ margin-right: 10px; color: #666;}
+.multi_selec_frame li span.icon-fuxuankuangyixuan{ color: #0BBA6B;}
+	
+.selec_item{display: inline-block; height: 20px; line-height: 20px; margin-right: 8px; background: #FAFAFA; border: 1px solid #EEEEEE; border-radius: 1px; font-family: MicrosoftYaHei; font-size: 12px; color: #555555; letter-spacing: 1px;}
+.selec_item b{ display: inline-block; height: 20px; margin-left: -7px; text-align: left; font-size: 12px;}

@@ -1,0 +1,103 @@
+/*reset*/
+*{ margin: 0; padding: 0;}
+html,body{ width: 100%; height: 100%; font-family: "寰蒋闆呴粦";}
+a{text-decoration: none;}
+i{font-style: normal;}
+b{font-weight: normal;}
+
+/*public*/
+.fl{ float: left;}
+.fr{ float: right;}
+.clear{ content: ''; display: block; clear: both;}
+
+/*layout*/
+.wrap{ width: 1170px; margin: auto;}
+#header{ width: 100%; height: 47px; border-bottom: 1px solid #eee;}
+#content{ width: 100%;}
+
+/*common*/
+/*header*/
+#header p{ height: 16px; margin-top: 15px; font-size: 14px; color: #555; line-height: 16px;}
+#header p:nth-child(2){ font-weight: bold;}
+
+/*闈㈠寘灞戞楠�*/
+#content .crumbs_step{ width: 800px; height: 40px; margin: 21px auto 36px;}
+#content .crumbs_step p{ float: left; width: 265px; height: 40px; text-align: center; line-height: 40px;}
+#content .crumbs_step p:nth-child(1){ background: url(../img/crumbs/origin1.png) no-repeat;}
+#content .crumbs_step p:nth-child(2){ margin-left: -15px; background: url(../img/crumbs/un.png) no-repeat;}
+#content .crumbs_step p:nth-child(3){ margin-left: -11px; background: url(../img/crumbs/un.png) no-repeat;}
+
+/*淇℃伅杈撳叆妗�*/
+#content form.info_input{ width: 100%; margin: auto;}
+/*  #content .info_input{width: 400px; margin: 70px auto;}  */
+.info_input p{ position: relative;}
+.info_input p input{ height: 30px; font-size: 14px; color: #222; text-indent: 5px; outline: none; border: 1px solid #D8D8D8; border-radius: 2px;}
+.info_input p select{ height: 30px; font-size: 14px; color: #222; text-indent: 5px; outline: none; border: 1px solid #D8D8D8; border-radius: 2px;}
+.info_input p select option{ font-size: 14px; color: #222;}
+.info_input p input:hover{ cursor: pointer;}
+.info_input p select:hover{ cursor: pointer;}
+.info_input p select option:hover{ cursor: pointer;}
+/* .info_input p:nth-child(1) input{ width: 300px; margin-left: 30px;}
+.info_input p:nth-child(2) input{ width: 300px; margin-left: 16px;}
+.info_input p:nth-child(3) select{ width: 302px; margin-left: 26px;}
+.info_input p:nth-child(4) input{ width: 131px; margin-left: 30px;}
+.info_input p:nth-child(4) input:nth-child(3){ margin-left: 13px;}
+.info_input p:nth-child(4) span{position:relative;left:-20px;color:#D8D8D8;display:inline-block;width:8px;}
+.info_input p:nth-child(5) input{ width: 300px; margin-left: 16px;}
+.info_input p:nth-child(6) { height: 36px; font-size: 12px; color: #555; letter-spacing: 1px; line-height: 18px;} */
+
+/* .info_input .habits { width: 400px; height: 110px;}
+.info_input .habits p:nth-child(1){ height: 14px; line-height: 14px; margin-top: 20px;}
+.info_input .habits p:nth-child(3){ margin: 0 14px;}
+.info_input .habits p.fl{ width: 120px; height: 40px; line-height: 35px;}
+.info_input .habits p select{ width: 120px; height: 30px; margin: -10px 0 0;} */
+
+
+.info_input h3{ width: 100%; height: 30px; line-height: 30px; font-family: MicrosoftYaHei; font-weight: normal; font-size: 16px; color: #7F8FA4; letter-spacing: 1px; border-bottom: 1px solid #eee;}
+.info_input i.iconfont{ position: absolute; top: 1px; right: 5px; width: 20px; height: 28px; line-height: 28px; font-size: 12px; color: #666; background-color: #fff;}
+
+/*project_set */
+#project_set{ position: relative; width: 480px; margin:0 0 0 70px;}
+#project_set p{ height: 30px; margin-top: 30px; font-family: MicrosoftYaHei; font-size: 14px; color: #222222; letter-spacing: 1px;}
+#project_set p input#projectName{ width: 360px; margin-left: 50px;}
+#project_set p input#projectPlace{ width: 360px; margin-left: 35px;}
+#project_set #date{ width: 160px; height: 30px; border: none;}
+#project_set #date2{ width: 160px; height: 30px; border: none;}
+#project_set .date_wrap{ display: inline-block; width: 360px; height: 30px; margin-left: 45px; border: 1px solid #D8D8D8; border-radius: 2px;}
+#project_set .habits p select{ width: 360px; margin-left: 47px;}	
+
+
+/*audit_set */
+#audit_set{ position: relative; width: 480px; margin: 0 0 0 70px;}
+#audit_set h4{ margin-top: 30px; height: 30px; font-family: MicrosoftYaHei; font-weight: normal; font-size: 14px; color: #222222; letter-spacing: 1px; line-height: 30px;}
+#audit_set p{ height: 30px; margin-top: 30px; font-family: MicrosoftYaHei; font-size: 14px; color: #222222; letter-spacing: 1px;}
+#audit_set p#percent_wrap{ position: relative; width: 480px;margin-top:23px;}
+#audit_set #audit_part{ display: inline-block; position: relative; width: 360px; height: 30px; line-height: 30px; margin-left: 45px; text-indent: 10px; border: 1px solid #D8D8D8; border-radius: 2px; font-family: MicrosoftYaHei; font-size: 14px; color: #C5C5C5; letter-spacing: 1px; overflow: hidden;}
+#audit_set #audit_part:hover{ cursor: pointer;}
+#audit_set p input#mean_calc{ width: 360px; margin-left: 45px;}
+#audit_set p input#percent{ width: 360px; margin-left: 30px;}
+#audit_set p select{ width: 362px; margin-left: 45px;}
+#audit_set p#S_m_wrap{ position: relative; width: 480px; margin-top: 75px;}
+#audit_set p .introduce{ position: absolute; top: 40px; right: 0; width: 360px; ont-family: MicrosoftYaHei; font-size: 12px; color: #555555; letter-spacing: 1px; line-height: 18px;}
+#audit_set i.posi_percent{ position: absolute; top: 10px; right: 5px; width: 20px; height: 30px; font-family: ArialMT; font-size: 14px; color: #222222; letter-spacing: 1px; line-height: 14px;} 
+
+
+/*next_step*/
+
+#next_step{ position: absolute; top: 716px; left: 545px; width: 120px; height: 30px; margin: auto; color: #c5c5c5; font-size: 14px; text-align: center; line-height: 30px; border-radius: 2px; background-color: #eee; border: 1px solid #D8D8D8;}
+
+#next_step:hover{ cursor:pointer;}
+
+/*red_star  */
+.red_star{ color: red;}
+
+/*审计阶段 多选下拉框 */
+.multi_selec_frame{ display: none; position: absolute; top: 95px; right: 1px; width: 359px; background: #FFFFFF; border: 1px solid #D8D8D8; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10); border-radius: 2px; z-index: 100;}
+.multi_selec_frame li{ width: 100%; height: 32px; line-height: 32px; text-indent: 10px;}
+.multi_selec_frame li:hover{ cursor: pointer; background-color: #E7EFF5;}
+.multi_selec_frame li span.iconfont{ margin-right: 10px; color: #666;}
+.multi_selec_frame li span.icon-fuxuankuangyixuan{ color: #0BBA6B;}
+
+.selec_item{display: inline-block; height: 20px; line-height: 20px; margin-right: 8px; background: #FAFAFA; border: 1px solid #EEEEEE; border-radius: 1px; font-family: MicrosoftYaHei; font-size: 12px; color: #555555; letter-spacing: 1px;}
+.selec_item b{ display: inline-block; height: 20px; margin-left: -7px; text-align: left; font-size: 12px;}
+

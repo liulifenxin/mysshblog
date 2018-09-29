@@ -1,0 +1,37 @@
+/*reset*/
+*{ margin: 0; padding: 0;}
+html,body{ width: 100%; height: 100%; font-family: "微软雅黑";}
+a{text-decoration: none;}
+
+/*public*/
+.fl{ float: left;}
+.fr{ float: right;}
+.clear{ content: ''; display: block; clear: both;}
+
+/*layout*/
+.wrap{ width: 1170px; margin: auto;}
+#header{ width: 100%; height: 47px; border-bottom: 1px solid #eee;}
+#content{ width: 100%;}
+
+/*common*/
+/*header*/
+#header p{ height: 16px; margin-top: 15px; font-size: 14px; color: #555; line-height: 16px;}
+#header p:nth-child(2){ font-weight: bold;}
+
+/*面包屑步骤*/
+#content .crumbs_step{ width: 800px; height: 40px; margin: 30px auto 70px;}
+#content .crumbs_step p{ float: left; width: 265px; height: 40px; text-align: center; line-height: 40px;}
+#content .crumbs_step p:nth-child(1){ background: url(../img/crumbs/finished1.png) no-repeat;}
+#content .crumbs_step p:nth-child(2){ margin-left: -15px; background: url(../img/crumbs/origin2.png) no-repeat;}
+#content .crumbs_step p:nth-child(3){ margin-left: -11px; background: url(../img/crumbs/un.png) no-repeat;}
+
+/*load*/
+.load{width: 800px; margin: auto} 
+.load p{ font-size: 12px; color: #555; margin-top: 20px;}
+
+/*step*/
+#step{ position: fixed; bottom: 80px; left: 50%; width: 260px; margin-left: -130px;}
+#step div:hover{ cursor: pointer;}
+#pre_step,#next_step{ width: 118px; height: 30px; color: #c5c5c5; font-size: 14px; text-align: center; line-height: 30px; border-radius: 2px; background: #EEE; border: 1px solid #D8D8D8;}
+#pre_step{ background-color: #fff;}
+#next_step{margin-left: 20px;}

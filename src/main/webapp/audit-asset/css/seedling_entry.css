@@ -1,0 +1,75 @@
+/*reset*/
+*{ margin: 0; padding: 0;}
+html,body{ width: 100%; height: 100%; font-family: "微软雅黑";}
+a{text-decoration: none;}
+
+/*public*/
+.fl{ float: left;}
+.fr{ float: right;}
+.clear{ content: ''; display: block; clear: both;position:relative;}
+#header .fl{position:absolute;left:29px;}
+
+/*layout*/
+#nav{ width: 1366px;  margin: auto;}
+.wrap{ width: 85.7%; margin: 0 auto;}
+#header{ width: 100%; height: 70px; border-bottom: 1px solid #eee;}
+#content{ width: 100%;}
+#add_search{width: 100%; height: 66px;}
+#table{ width: 100%;}
+#pages{ width: 100%; margin-top: 26px;}
+
+/*common*/
+#header img{ width: 13px; height: 16px; margin: 27px 12px 0 30px;}
+#header p{ width: 136px; height: 20px; margin-top: 25px; font-size: 16px; color: #222; line-height: 20px;}
+
+#add_search .add_audit{ width: 120px; height: 30px; margin: 20px 0 0 30px; font-size: 14px; color: #fff; background-color: #0BBA6B; border-radius: 2px; line-height: 30px; text-align: center;}
+#add_search .search{ margin: 20px 30px 0 0;}
+#add_search .search input{ width: 240px; height: 30px; text-indent: 10px;}
+
+#table table{ width: 94.87%; margin: 0 auto; border: 1px solid #E6EAEE;}
+#table table th,#table table td{ height: 40px; font-size: 14px; border: 1px solid #E6EAEE; text-align: center; vertical-align: middle;}
+#table table th{ color: #7F8FA4;}
+#table table th:nth-child(1){width:180px;}
+#table table th:nth-child(2){width:120px;}
+#table table th:nth-child(3){width:185px;}
+#table table th:nth-child(4){width:150px;}
+#table table th:nth-child(5){width:110px;}
+#table table th:nth-child(6){width:90px;}
+#table table th:nth-child(7){width:153px;}
+#table table td{ color: #555;}
+#table table tr:nth-child(odd){ background-color: #F5F8FA }
+#table table tr:nth-child(even){ background-color: #fff }
+#table table tr td:nth-child(1){ color: #222;}
+#table table tr:hover td{ border-top: 1px solid #1A89E8; border-bottom: 1px solid #1A89E8;}
+#table table tr:hover td:first-child{ border-left: 1px solid #1A89E8; color: #1A89E8;}
+#table table tr:hover td:last-child{ border-right: 1px solid #1A89E8;}
+
+
+/*翻页*/
+#pages .pages_total{ width: 255px; height: 30px; margin: 10px 10px 0 30px; font-size: 14px; color: #222; line-height: 30px;}
+#pages .paging{ height: 30px;}
+
+div.paging { padding-right: 7px; padding-left: 7px; padding-bottom: 7px; padding-top: 7px; text-align: center
+}
+div.paging a { display: inline-block; width: 30px; height: 30px; line-height: 30px; margin: 2px; border: 1px solid #D8D8D8; color: #555;  text-decoration: none
+}
+div.paging a:hover { border-right: #D8D8D8 1px solid; border-top: #D8D8D8 1px solid; border-left: #D8D8D8 1px solid; color: #555; border-bottom: #D8D8D8 1px solid
+}
+div.paging a:active { border-right: #D8D8D8 1px solid; border-top: #D8D8D8 1px solid; border-left: #D8D8D8 1px solid; color: #555; border-bottom: #D8D8D8 1px solid
+}
+div.paging span.current { display: inline-block; width: 30px; height: 30px; line-height: 30px; font-weight: normal; margin: 2px; color: #fff; border: 1px solid #0BBA6B; background-color: #0BBA6B
+}
+div.paging span.disabled { padding: 2px 5px; margin: 2px; border: 1px solid #D8D8D8;
+}
+
+/*放大镜定位*/
+.f3{position: absolute;left: 1480px;top: 142px;width:30px;height: 30px;}
+/*箭头定位*/
+.f2{position: relative;top:15px;}
+
+/*价格推算*/
+#exclamatory{ position: absolute; left: 73px; display:inline-block; font-style:normal; width:18px; height:18px; border: 1px solid #7F8FA4; border-radius: 50%;"}
+#exclamatory:hover{ cursor: pointer;}
+
+
+

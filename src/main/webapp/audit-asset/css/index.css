@@ -1,0 +1,114 @@
+html,body{width:100%;height:100%; font-family: MicrosoftYaHei;}
+*{padding:0;margin: 0;}
+li{ list-style: none;}
+i{ font-style: normal;}
+
+/*public  */
+.fl{ float: left;}
+.fr{ float: right;}
+.clear{ content:''; display: block; clear: both;}
+
+/*menu*/
+#header_nav{position:fixed; top:0; left:0;}
+
+#menu{width:1366px;height:58px;margin:0 auto;color:white;background-color: #1D2D4D;}
+#menu .one{width:286.5px;height:100%;line-height:58px;float:left;text-align:center;}
+#menu .one .logo{width: 140px;height: 30px;background-image:url(../img/logo01.png);position:absolute;top:15px;left:120px;}
+#menu .one .logo:hover{ cursor: pointer;}
+#menu .two{width:830px;height:100%;float:left;/*background-color:cyan;*/position:relative;}
+#menu .two ul{list-style: none;width:100%;height:100%;}
+#menu .two ul li{width:20%;height:100%;line-height:58px;font-size:14px;opacity:0.6;cursor: pointer;float: left;text-align:center;}
+#menu .underline{position:absolute;top:55px;}
+#menu .underline i{display: block;float:left;width:24px;height:3px;background-color: #1D2D4D;margin-left:71px;margin-right: 71px;}
+
+#menu .three{position:relative; width:249.5px;height:100%;float:left;}
+#menu .headPortrait{width:60px;height:40px;line-height: 40px;margin-top:10px;margin-left: 91px;}
+#menu .headPortrait img{width:36px;height:36px;float: left;margin-right:10px;}
+#menu .headPortrait span{font-size: 5px;}
+#menu .headPortrait:hover{ cursor:pointer;} 
+#menu #exit{display:none; position:absolute; left:60px; top:50px; width:111px; height:45px; background-color: #fff; text-align: center; line-height: 47px; border: 1px solid #D8D8D8; box-shadow: 0 2px 8px 0 rgba(0,0,0,0.10); border-radius: 2px;font-family: MicrosoftYaHei; font-size: 14px; color: #222222; letter-spacing: 1px;}
+#menu #exit span{ display: inline-block; vertical-align: top; font-size: 14px;}
+
+#frame{width:100%;height:100%;margin:60px auto 0;}
+
+/*价格推算 */
+#calc_cover{ display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.5); z-index: 100;}
+#calc_table{ position: absolute; right: 0; top: 0; width: 600px; height: 100%; background-color: #fff; z-index: 150; overflow: auto;}
+#calc_table .c_t_wrap{ width: 560px; margin: 0 auto;}
+#calc_table .c_t_wrap p{ height: 20px; padding: 20px 0;}
+#calc_table .c_t_wrap p span{ font-family: MicrosoftYaHei; font-size: 14px; color: #222222; letter-spacing: 1px;}
+#calc_table .c_t_wrap p span:nth-child(2){ font-size: 30px; color: #888; margin-top: -13px;}
+#calc_table .c_t_wrap p span:nth-child(2):hover{ cursor: pointer; color: #f60;}
+
+#calc_table table{ width: 100%; margin: 0 auto 10px; border-collapse:collapse;}
+#calc_table table th,#calc_table table td{ height: 40px; font-size: 14px; border: 1px solid #E6EAEE ; vertical-align: middle;}
+#calc_table table th{ font-size: 14px; color: #7F8FA4; letter-spacing: 1px; text-align: center;}
+#calc_table table td{ font-family: MicrosoftYaHei; font-size: 14px; color: #222222; letter-spacing: 1px; padding: 0 10px;}
+#calc_table table tr:nth-child(1){ background-color: #F5F8FA }
+
+#calc_table table tr.height_80 td{ height: 80px;}
+#calc_table table tr td.td_1{ font-family: MicrosoftYaHei; font-size: 12px; color: #222222; letter-spacing: 0.86px; text-align: justify;}
+
+#calc_table .table_1 th:nth-child(1){width:125px;}
+#calc_table .table_1 th:nth-child(2){width:105px;}
+#calc_table .table_2 th:nth-child(1){width:202px;}
+#calc_table .table_2 th:nth-child(2){width:202px;}
+
+
+/*购物车*/
+#s_c_cover{ display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.5);}
+#s_c_cover .s_c_list{ position: absolute; top: 0; right: 0; width: 300px; height: 100%; background-color: #fff;}
+#s_c_cover .s_c_list .s_c_l_wrap{ width: 260px; margin: 0 auto;}
+#s_c_cover .s_c_list .s_c_l_wrap p{ width: 100%; height: 22px; margin: 20px 0; line-height: 22px; font-family: PingFangSC-Regular; font-size: 16px; color: #555555; letter-spacing: 1.33px;}
+#s_c_cover .s_c_list .s_c_l_wrap p .close:hover{ cursor: pointer; color: #f60;}
+#s_c_cover .s_c_list .s_c_l_wrap .s_c_button{}
+#s_c_cover .s_c_list .s_c_l_wrap .s_c_button span{ display: inline-block; width: 80px; height: 30px; margin-bottom: 15px; line-height: 30px; background: #EEEEEE; border: 1px solid #D8D8D8; border-radius: 2px; font-family: MicrosoftYaHei; font-size: 14px; color: #C5C5C5; letter-spacing: 1px; text-align: center;}
+
+#s_c_l_w_list li{ width: 100%; height: 20px; line-height: 20px;}
+#s_c_l_w_list li span{ margin-left: 10px;}
+
+/*地理分布地图*/
+#map_cover{ display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.5);}
+#map_cover .m_list{ position: absolute; top: 0; right: 0; width: 600px; height: 100%; background-color: #fff;}
+#map_cover .m_list .m_l_wrap{ width: 560px; margin: 0 auto;}
+#map_cover .m_list .m_l_wrap p{ width: 100%; height: 22px; margin: 10px 0; line-height: 22px; font-family: MicrosoftYaHei; font-size: 16px; color: #222222; letter-spacing: 1px;}
+#map_cover .m_list .m_l_wrap p .close:hover{ cursor: pointer;}
+#map_cover .m_list .m_l_wrap .map_pic{ margin-bottom: 20px;}
+#map_cover .m_list .m_l_wrap .map_pic img{ width: 560px;}
+
+#map_cover table{ width: 100%; margin: 0 auto 10px; border-collapse:collapse;}
+#map_cover table th,#map_cover table td{ font-size: 14px; border: 1px solid #E6EAEE ; vertical-align: middle;}
+#map_cover table th{ font-size: 14px; color: #7F8FA4; letter-spacing: 1px; text-align: center;}
+#map_cover table th:nth-child(1){ width: 205px;}
+#map_cover table td{ font-family: MicrosoftYaHei; color: #222222; letter-spacing: 1px; padding: 0 10px; text-align: justify;font-size:14px;line-height: 24px;}
+#map_cover table tr:nth-child(1){ height: 40px; background-color: #F5F8FA }
+#map_cover table tr:nth-child(2){ height: 40px;}
+#map_cover table tr:nth-child(3){ height: 66px;}
+#map_cover table tr:nth-child(4){ height: 117px;}
+#map_cover table tr:nth-child(5){ height: 117px;}
+#map_cover table tr:nth-child(6){ height: 66px;}
+#map_cover table tr:nth-child(7){ height: 237px;}
+#map_cover table tr:nth-child(8){ height: 66px;}
+#map_cover table tr:nth-child(9){ height: 92px;}
+#map_cover table tr:nth-child(10){ height: 117px;}
+#map_cover table tr:nth-child(11){ height: 92px;}
+#map_cover table tr:nth-child(12){ height: 66px;}
+
+/*植物图形分布*/
+#botany{display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,.5);}
+#botany .botany_p{position: absolute; top: 0; right: 0; width: 600px; height: 100%; background-color: #fff;}
+#botany .botany_p .botany_pl{width: 560px; margin: 0 auto;}
+#botany .botany_p .botany_pl p{font-size:16px;color:#222222;letter-spacing: 1px;font-family: MicrosoftYaHei;margin-top:12px;}
+#botany .botany_p .botany_pl table td{border:1px solid #e6eaee;width:280px;height:180px;}
+#botany .botany_p .botany_pl table td li{font-size: 12px;color: #222222;letter-spacing: 1px;margin-left:8px;margin-top:8px;}
+#botany .botany_p .botany_pl table td p{font-size: 12px;color: #888888;letter-spacing: 1px;}
+#botany table td img{margin-left:80px;}
+#botany table{margin-top:20px;margin-bottom:20px; border-collapse: collapse;}
+
+
+
+
+
+
+
+

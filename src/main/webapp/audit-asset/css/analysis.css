@@ -1,0 +1,73 @@
+/*reset*/
+html,body{ width:100%; height:100%; font-family:PingFangSC-Semibold; font-size: 16px;}
+body{ overflow-x: hidden;}
+*{ padding: 0; margin: 0;}
+a{ text-decoration: none; color: #fff;}
+li{ list-style: none;}
+i{font-style: normal;}
+
+/*public*/
+.fl{ float: left;}
+.fr{ float: right;}
+.clear:after{ content: ''; display: block; clear: both;}
+
+/*layout*/
+#header{ width: 100%; min-width: 1366px;height: 2rem; min-height:40px; margin: 0 auto; background-color: #0067e7;}
+#footer{ position: relative; bottom: 0; left: 0; width: 100%; height: 2.5rem; padding-top: 20px}
+
+/*common*/
+#header .main{ width: 66.3rem; height: 2rem; margin: 0 auto;}
+#header #crumbs{ width: 50rem; height: 2rem;}
+#header #crumbs a{ height: 2rem; line-height: 2rem; margin-right: 2.8rem; font-size: 0.7rem; color: #fff;}
+#header #crumbs a i{ color: #fff;}
+#header #crumbs i{ height: 2rem; line-height: 2rem; margin: 0 0.5rem 0 0.75rem; font-size: 0.8rem; color: #95b6fb;}
+#header #crumbs i.icon-zuojiantou{ margin: 0; font-size: 1.2rem;}
+#header #crumbs p{ height: 2rem; line-height: 2rem; font-size: 0.7rem; color: #95b6fb;}
+#header #close{ height: 2rem; cursor: pointer;}
+#header #close span{ display: block; height: 2rem; line-height: 2rem; font-size: 1rem; color: #fff;}
+
+/*鏉堢偓鍨氶崚鍡樼��*/
+#year { width: 100%; position:relative;left:-45px;top:-140px;}
+#year #shown{ width: 60%; height: 25rem; margin: 0 auto;}
+#shown{float: left;position: relative;left: 155px;top:9px;}
+
+
+#header{ width:100%;height:40px; margin: 0 auto; background-color: #0067e7;}
+#content{width: 1260px; height:100%;margin:0 auto;}
+
+/*common*/
+#header .main{ width: 1260px; height: 100%; margin: 0 auto;}
+#header #crumbs{ width: 50%; height: 100%; line-height: 32px;}
+#header #crumbs a{ height: 100%; line-height: 40px; font-size: 14px;}
+#header #crumbs span{ height: 100%; line-height: 35px; margin: 0 10px 0 15px; font-size: 25px; color: #fff;}
+#header #close{ height: 100%; line-height: 35px; font-size: 35px; font-weight: lighter; color: #fff; cursor: pointer;}
+
+/*content_1*/
+#content_1{width:100%; height:320px;margin-top:20px; position:relative;left:15px;}
+
+/*content_2*/
+#content_2{width:1260px; height:200px;position:absolute; top:400px;}
+
+.slide{width:100%;height:40px;margin-top:10px;margin-bottom: 10px;}
+#btn{width:200px;height:40px;line-height:40px;float:right;margin-right: 120px;}
+#btn button{font-size:20px;width:25px;height:25px;}
+#page_up,#page_down{margin-left:20px;margin-right: 20px;}
+#two{background-color: #4caf50;color:white;}
+
+.table_data{width:100%;height:160px;}
+.table_data table{width:100%;text-align: center;border:none;}
+.table_data td{padding-top:4px;padding-bottom: 4px;border:none;}
+
+/*閹兼粎鍌ㄥ锟�*/
+#search{float: right;line-height: 23px; position: relative;left: -22%;top: -140px; color: #c4c5c6;}
+.frame_2{position: absolute;left: 30px;width: 100px;}
+.frame_3{position: absolute;left: 250px;width: 100px;}
+.name{position: relative;top: -37px;left: 35px;}
+#frame_head{position: relative;left: -40px;top:40px;}
+.frame_1{position: absolute;top: 50spx; left: -13px;padding: 10px;font-size: 12px;}
+.frame_1{width: 260px;}
+
+
+#name_1{width:100%;position:relative;top: -50px;left:-10px;}
+.name{position:relative;top:-31px;}
+
